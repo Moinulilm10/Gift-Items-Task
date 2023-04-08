@@ -7,7 +7,7 @@ import { RiSecurePaymentLine } from "react-icons/ri";
 const Services = () => {
   return (
     <Wrapper>
-      <div className="container">
+      <div className="container" data-aos="zoom-in">
         <div className="grid grid-three-column">
           <div className="services-1">
             <div>

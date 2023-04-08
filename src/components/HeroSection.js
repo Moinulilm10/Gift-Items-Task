@@ -9,7 +9,7 @@ const HeroSection = ({ myData }) => {
     <Wrapper>
       <div className="container">
         <div className="grid grid-two-column">
-          <div className="hero-section-data">
+          <div className="hero-section-data" data-aos="fade-right">
             <p className="intro-data">Welcome to </p>
             <h1> {name} </h1>
             <p>
@@ -26,7 +26,7 @@ const HeroSection = ({ myData }) => {
             </NavLink>
           </div>
           {/* our homepage image  */}
-          <div className="hero-section-image">
+          <div className="hero-section-image" data-aos="fade-left">
             <figure>
               <img
                 src="https://img.freepik.com/free-photo/colorful-black-friday-gift-shopping-cart_23-2148283812.jpg?size=626&ext=jpg&ga=GA1.2.675701629.1680780243&semt=ais"

@@ -11,7 +11,6 @@ const Home = () => {
 
   return (
     <>
-      {/* <HeroSection myData={data} /> */}
       <Banner />
       <FeatureProduct />
       <Services />
