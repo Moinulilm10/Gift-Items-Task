@@ -4,7 +4,6 @@ import About from "./About";
 import Home from "./Home";
 import Products from "./Products";
 import Contact from "./Contact";
-import Cart from "./Cart";
 import SingleProduct from "./SingleProduct";
 import ErrorPage from "./ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
@@ -51,7 +50,6 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/singleproduct/:id" element={<SingleProduct />} />
           <Route path="/placeorder/:id" element={<PlaceOrder />} />
-          <Route path="/cart" element={<Cart />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
         <Footer />
