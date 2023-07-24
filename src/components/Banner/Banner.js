@@ -36,6 +36,9 @@ const Banner = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          // Set custom height for mobile screens
+          customPaging: (i) => <div className="custom-dots" />,
+          adaptiveHeight: true,
         },
       },
     ],
