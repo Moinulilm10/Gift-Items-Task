@@ -68,7 +68,7 @@ const Banner = () => {
         {images.map((image) => (
           <div key={image.id}>
             <img
-              className="w-full object-cover h-screen"
+              className="w-full object-cover lg:h-screen"
               src={image.url}
               alt={image.alt}
             />
